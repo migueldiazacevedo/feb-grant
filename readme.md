@@ -15,23 +15,6 @@
 - Python 3.10.13 
 - Packages: h5py, matplotlib, numpy, pandas, seaborn, tdt, scipy
 
-## Steps
-1. Import packages.
-2. Define delay between TDT system and video data.
-3. Define paths for datasets.
-4. Import and align data.
-5. Calculate velocity and acceleration.
-6. Set movement onset and offset criteria.
-7. Clean DLC DataFrame.
-8. Extract information from TDT device data.
-9. Place GuPPy data in TDT timescale.
-10. Merge datasets and clean.
-11. Generate interpolation functions.
-12. Sample points and frequencies.
-13. Analyze movement onset and offset events.
-14. Analyze behavioral syllable onset events.
-
-
 ## Notes on Package Imports
 
 You will need to make sure you have the following installed on your computer, either via pip or conda: <br>
@@ -50,3 +33,19 @@ If you are not using Anaconda, then use a Python virtual environment. You can cr
 <br><br>
 
 Assuming that you were able to follow the above steps, then you are ready to use the notebook.
+
+## Steps
+1. Import packages.
+2. Define delay between TDT system and video data.
+3. Define paths for datasets.
+4. Import and align data.
+5. Calculate velocity and acceleration.
+6. Set movement onset and offset criteria.
+7. Clean DLC DataFrame.
+8. Extract information from TDT device data.
+9. Place GuPPy data in TDT timescale.
+10. Merge datasets and clean.
+11. Generate interpolation functions.
+12. Sample points and frequencies.
+13. Analyze movement onset and offset events.
+14. Analyze behavioral syllable onset events.
